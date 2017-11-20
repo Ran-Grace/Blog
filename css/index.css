@@ -1,0 +1,161 @@
+ul{
+    padding: 0;
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+.header-LOGO{
+    width: 30%;
+    margin-left: 1%;
+    position: absolute;
+    left: 2px;
+}
+.header-LOGO >img{
+    width: 100%;
+}
+.company-cooperation{
+    width: 60%;
+    height: 80px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+.company-cooperation >ul{
+    width: 100%;
+    padding: 0px;
+}
+.company-cooperation >ul >li{
+    float: right;
+    width: 10%;
+    text-align: center;
+    margin-left: 40px;
+    padding: 5px;
+    border:1px solid #e1a581;
+    border-radius:25px;
+}
+.company-cooperation >ul >li >a{
+    text-decoration: none;
+    color: #e1a581;
+}
+
+.Navigation-Bar{
+    margin-left: 10%;
+    margin-top: 20px;
+    width: 100%;
+    height: 90px;
+}
+.Navigation-Bar li{
+    width: 80px;
+    float: left;
+    text-align: center;
+    margin-left: 7px;
+}
+.Navigation-Bar div{
+    width: 80px;
+    height: 80px;
+}
+.Navigation-Bar div>img{
+    width: 100%;
+}
+.Navigation-Bar p{
+    margin: 0px;
+}
+
+.content{
+    margin: 30px auto 0px;
+    border-top: 2px solid #d9ebff;
+    width: 85%;
+    height: 600px;
+}
+.content >div{
+    float: left;
+}
+.content-right{
+    width: 25%;
+    height: 100%;
+}
+.content-right >div{
+    border-right: 2px solid #d9ebff;
+}
+.content-right-top{
+    width: 100%;
+    height: 50%;
+    border-bottom:1px solid #d9ebff;
+}
+.content-right-bottom{
+    width: 100%;
+    height: 50%;
+    border-top:1px solid #d9ebff;
+}
+.content-right-top td {
+    text-align: left;
+    vertical-align: middle;
+    height: 50px;
+}
+.content-right-top td input{
+    height: 30px;
+    border: 1px solid #677c91;
+}
+.content-right-bottom td{
+    text-align: left;
+    vertical-align: middle;
+    height: 50px;
+}
+
+.content-center{
+    width: 65%;
+    height: 100%;
+}
+.content-center > div{
+    float: left;
+}
+.content-center-left{
+    width: 15%;
+    height: 100%;
+}
+.content-center-left table{
+    margin: 50px auto 0px;
+    width: 80%;
+}
+.content-center-left td{
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    width: 50%;
+    border: 1px solid #e1a581;
+}
+.content-center-right{
+    width: 83%;
+    height: 100%;
+}
+.content-center-right >img{
+    display: block;
+    width:90%;
+    height: 90%;
+    margin:20px auto 0px;
+}
+
+.content-left{
+    width:10%;
+    height: 100%;
+}
+.content-left table{
+    width: 90%;
+    margin: 50px auto;
+
+}
+.content-left td{
+    border: 1px solid #dcbaa1;
+    text-align: center;
+    vertical-align: middle;
+
+}
